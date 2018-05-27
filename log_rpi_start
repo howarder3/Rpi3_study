@@ -1,0 +1,564 @@
+    1  ifconfig
+    2  cd /etc
+    3  cd wpa_supplicant/
+    4  ls
+    5  cat wpa_supplicant.conf 
+    6  sudo cat wpa_supplicant.conf 
+    7  ifconfig
+    8  wget http://cdn.ralf.ren/sp/rpi_samba_hdd.sh && bash rpi_samba_hdd.sh
+    9  sudo wget http://cdn.ralf.ren/sp/rpi_samba_hdd.sh && bash rpi_samba_hdd.sh
+   10  cd ~
+   11  ls
+   12  mkdir aa
+   13  cd aa
+   14  sudo wget http://cdn.ralf.ren/sp/rpi_samba_hdd.sh
+   15  ls
+   16  ./rpi_samba_hdd.sh
+   17  sudo ./rpi_samba_hdd.sh
+   18  sudo rpi_samba_hdd.sh
+   19  cat rpi_samba_hdd.sh 
+   20  cd ..
+   21  cd ..;s
+   22  l
+   23  nano .config
+   24  cd .config
+   25  ls -al
+   26  cd pi
+   27  ls
+   28  ls -al
+   29  cd .config
+   30  ls
+   31  cd autostart/
+   32  ls
+   33  cat LXinput-setup.desktop 
+   34  gedit
+   35  sudo apt-get install gedit
+   36  ls
+   37  ls -
+   38  ls -l
+   39  gedit vnc.desktop 
+   40  vncserver
+   41  sudo apt-get update
+   42  sudo apt-get install realvnc-server realvnc-vnc-viewer
+   43  sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
+   44  cd /
+   45  ls
+   46  cd usr
+   47  ls
+   48  v share
+   49  ls
+   50  cd share
+   51  ls
+   52  cd vnc
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd bin
+   59  ls
+   60  cd vncserver
+   61  cd ..
+   62  find ./ -name vncconfig
+   63  cd /bin
+   64  ls
+   65  cd /sbin
+   66  ls
+   67  vncconfig
+   68  sudf
+   69  df
+   70  top
+   71  df
+   72  cd ~
+   73  cd project/
+   74  ls
+   75  rm vlc.tar.gz 
+   76  df
+   77  du -sh
+   78  ls
+   79  cd vlc-2.2.6/
+   80  ls
+   81  cd ..
+   82  ls
+   83  cd ..
+   84  df
+   85  1
+   86  sudo apt-get install samba samba-common-bin
+   87  sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bak
+   88  sudo gedit /etc/samba/smb.conf
+   89  ls
+   90  mkdir share
+   91  ls
+   92  chmod a+w share
+   93  ls
+   94  ls -l
+   95  /etc/init.d/samba restart
+   96  sudo /etc/init.d/samba restart
+   97  sudo gedit /etc/samba/smb.conf
+   98  sudo /etc/init.d/samba restart
+   99  sudo gedit /etc/samba/smb.conf
+  100  cd .config
+  101  ls
+  102  cd autostart/
+  103  ls
+  104  cat LXinput-setup.desktop 
+  105  cd ~
+  106  ls
+  107  mkdir project
+  108  ls -al
+  109  vncconfig
+  110  vncconfig &
+  111  cd ..
+  112  which vnc
+  113  which vnc-server
+  114  find ./ -name vnc-server
+  115  sudo yum install git libtool pkgconfig
+  116  sudo apt-get install git build-essential pkg-config libtool automake autopoint gettext
+  117  ls
+  118  cd proc/
+  119  cd ~
+  120  cd project/
+  121  ls
+  122  cd vlc-2.2.6/
+  123  ls
+  124  ./bootstrap 
+  125  sudo apt-get build-dep vlc
+  126  apt-get install subversion yasm cvs cmake ragel
+  127  sudo apt-get install subversion yasm cvs cmake ragel
+  128  cd contrib
+  129  ls
+  130  cd native/
+  131  ls
+  132  ../bootstrap 
+  133  make
+  134  sudo apt-get install ANT
+  135  make
+  136  cd ..
+  137  ./configure -help
+  138  ./configure -help|grep 264
+  139  ls
+  140  make
+  141  sudo apt-get install Lua
+  142  sudo apt-get install Lua%.2
+  143  sudo apt-get install lua5.2
+  144  make
+  145  sudo apt-get install lua5.2liblua5.2-dev
+  146  sudo apt-get install lua5.2 liblua5.2-dev
+  147  make
+  148  sudo apt-get install libmad0-dev
+  149  sudo apt-get install libpostproc-dev
+  150  sudo apt-get install liba52-dev
+  151  sudo apt-get install libgcrypt11-dev
+  152  make
+  153  sudo apt-get install -y libdbus-1-dev lua5.1 liblua5.1-dev libmad0-dev libavcodec-dev libavformat-dev libswscale-dev libpostproc-dev liba52-dev libxcb1-dev libxcb-shm0-dev libxcb-xv0-dev libx11-xcb-dev libgl1-mesa-dev libqt4-dev libgcrypt11-dev
+  154  make
+  155  apt-get install git libtool build-essential pkg-config autoconf
+  156  sudo apt-get install git libtool build-essential pkg-config autoconf
+  157  sudo apt-get install liba52-0.7.4-dev libdirac-dev libdvdread-dev libkate-dev 
+  158  sudo apt-get install liba52-0.7.4-dev libdirac-dev libdvdread-dev libkate-dev sudo apt-get install -y liba52-0.7.4-dev libdirac-dev libdvdread-dev libkate-dev libass-dev libbluray-dev libcddb2-dev libdca-dev libfaad-dev libflac-dev libmad0-dev libmodplug-dev libmpcdec-dev libmpeg2-4-dev libogg-dev libopencv-dev libpostproc-dev libshout3-dev libspeex-dev libspeexdsp-dev libssh2-1-dev liblua5.1-0-dev libopus-dev libschroedinger-dev libsmbclient-dev libtwolame-dev libx264-dev libxcb-composite0-dev libxcb-randr0-dev libxcb-xv0-dev libzvbi-dev
+  159  sudo apt-get install -y liba52-0.7.4-dev libdirac-dev libdvdread-dev libkate-dev libass-dev libbluray-dev libcddb2-dev libdca-dev libfaad-dev libflac-dev libmad0-dev libmodplug-dev libmpcdec-dev libmpeg2-4-dev libogg-dev libopencv-dev libpostproc-dev libshout3-dev libspeex-dev libspeexdsp-dev libssh2-1-dev liblua5.1-0-dev libopus-dev libschroedinger-dev libsmbclient-dev libtwolame-dev libx264-dev libxcb-composite0-dev libxcb-randr0-dev libxcb-xv0-dev libzvbi-dev
+  160  make
+  161  cd contrib/
+  162  ls
+  163  cd native
+  164  ls
+  165  ../bootstrap 
+  166  make
+  167  ./vlc
+  168  cd ..
+  169  make
+  170  ./configure 
+  171  sudo apt-get install libalsa-ocaml-dev
+  172  ./configure 
+  173  make
+  174  ./vlc
+  175  ls
+  176  cd contrib/
+  177  ls
+  178  cd native/
+  179  ls
+  180  ../bootstrap 
+  181  make
+  182  cd ..
+  183  ls
+  184  ./rvlc
+  185  ./rvlc 
+  186  ./vlc 
+  187  ls
+  188  cd vlc
+  189  ls
+  190  cd modules/
+  191  ls
+  192  cd .libs/
+  193  ls
+  194  ls -al
+  195  cd ..
+  196  make clean
+  197  df
+  198  ls
+  199  cd modules/
+  200  ls
+  201  ls -al
+  202  cd ..
+  203  ./configure 
+  204  make
+  205  ./vlc
+  206  cd /home
+  207  ls
+  208  mkdir mike
+  209  sudo mkdir mike
+  210  ls
+  211  cd ..
+  212  chmod 777 mike
+  213  ls
+  214  cd /home
+  215  chmod 777 mike
+  216  sudo chmod 777 mike
+  217  ls
+  218  cd mike/
+  219  ls
+  220  cd ~/share/
+  221  ls
+  222  chmod a+w -R *
+  223  sudo chmod a+w -R *
+  224  cd ..
+  225  cd mike
+  226  ls
+  227  cd disk1/
+  228  ls
+  229  cd Tt
+  230  ls
+  231  cd Tts
+  232  ls
+  233  cd WorkSpace/
+  234  ls
+  235  cd Tts
+  236  ls
+  237  cd Debug/
+  238  ls
+  239  make clean
+  240  make
+  241  cd ..
+  242  cd TtsTest/
+  243  ;s
+  244  ls
+  245  cd Debug/
+  246  ls
+  247  make clean
+  248  make
+  249  ./TtsTest 
+  250  pulse
+  251  pulseaudio
+  252  pulse-audio -D
+  253  pulseaudio -D
+  254  cd olami/
+  255  ls
+  256  python3 olamiMain.py 
+  257  sudo apt-get install python3-pyaudio
+  258  python3 olamiMain.py 
+  259  sudo apt-get install speex
+  260  python3 olamiMain.py 
+  261  cd olami/
+  262  ls
+  263  python3 olamiMain.py 
+  264  rm -rf __pycache__/
+  265  python3 olamiMain.py 
+  266  ls
+  267  cd res
+  268  ls
+  269  cd voicecmd/
+  270  ls
+  271  gedit ~/.bash
+  272  gedit ~/.bashrc 
+  273  cd share
+  274  ls
+  275  cd pyspeex-master/
+  276  ls
+  277  cat README 
+  278  sudo python3 setup.py install
+  279  cd olami
+  280  ls
+  281  python3 olamiMain.py 
+  282  sudo apt-get update
+  283  sudo apt-get upgrade
+  284  python3 olamiMain.py 
+  285  sudo reboot
+  286  ls
+  287  df
+  288  cd /home
+  289  cd mike
+  290  du -sh
+  291  cd ..
+  292  cd mike/
+  293  ls
+  294  cd disk1/
+  295  ls
+  296  cd WorkSpace/
+  297  ls
+  298  cd ..
+  299  df
+  300  cd ..
+  301  ls
+  302  cd pi
+  303  ls
+  304  cd project/
+  305  ls
+  306  rm -rf vlc-2.2.6/
+  307  ls
+  308  df
+  309  cd ..
+  310  rm -rf mike
+  311  sudo rm -rf mike
+  312  ls
+  313  df
+  314  cd pi
+  315  ls
+  316  mkdir olami
+  317  top
+  318  dmesg
+  319  ps ax
+  320  ls
+  321  top
+  322  ls
+  323  cd olami/
+  324  cd ..
+  325  ls
+  326  cd project/
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd olami/
+  331  ls
+  332  python3 olamiMain.py 
+  333  kexit
+  334  shutdown -h 
+  335  shutdown now -h 
+  336  sudo shutdown -h now
+  337  ping www.google.com.tw
+  338  sudo su
+  339  ls
+  340  cd /etc/
+  341  sudo su
+  342  sudo raspi-config 
+  343  top
+  344  cd /home/
+  345  ls
+  346  cd pi/
+  347  ls
+  348  cd olami/
+  349  ls
+  350  vim ServerProcess.py 
+  351  cd libs/
+  352  ls
+  353  ll
+  354  ls -al
+  355  cd ..
+  356  ls
+  357  vim OlamiNlp.py 
+  358  vim findLibDepend.py 
+  359  vim AudioSrc.py 
+  360  grep olami.ai * -r
+  361  grep "olami.ai" * -r
+  362  vim SpeechProcess.py 
+  363  top
+  364  ls
+  365  vim OlamiNlp.py 
+  366  grep print * 0r
+  367  ls
+  368  vim VoiceCmd.py 
+  369  top
+  370  vim VoiceCmd.py 
+  371  grep print * -r
+  372  top
+  373  grep print * -r
+  374  vim MsgHandler.py 
+  375  vim ControlCenter.py 
+  376  vim VoiceCmd.py 
+  377  grep "欧拉"
+  378  grep "欧拉" * -r
+  379  cd res/voicecmd/online/
+  380  ls
+  381  vim kws.prons 
+  382  exit
+  383  cd /home/
+  384  ls
+  385  cd pi/
+  386  ls
+  387  cd olami/
+  388  ls
+  389  sudo ./startup.sh 
+  390  sudo shutdown -h now
+  391  raspi-config 
+  392  sudo raspi-config 
+  393  top
+  394  cd /home/pi/olami/
+  395  ls
+  396  sudo ./startup.sh 
+  397  ls
+  398  greop olami.ai * 0r
+  399  greop olami.ai * -r
+  400  grep olami.ai * -r
+  401  grep "olami.ai" * -r
+  402  sudo ./startup.sh 
+  403  sudo shutdown -h now
+  404  cd /home/
+  405  ls
+  406  cd pi/
+  407  ls
+  408  ./uart.py 
+  409  vim uart.py 
+  410  ./uart.py 
+  411  vim uart.py 
+  412  ./uart.py 
+  413  vim uart.py 
+  414  ./uart.py 
+  415  vim uart.py 
+  416  ls -al /dev/ttyAMA0 
+  417  id
+  418  sudo raspi-config 
+  419  id
+  420  rpi-serial-console status
+  421  sudo wget https://raw.githubusercontent.com/lurch/rpi-serial-console/master/rpi-serial-console -O /usr/bin/rpi-serial-console && sudo chmod +x /usr/bin/rpi-serial-console
+  422  rpi-serial-console status
+  423  vim /etc/inittab
+  424  sudo vim /etc/inittab
+  425  rpi-serial-console enable
+  426  sudo rpi-serial-console enable
+  427  dmesg | grep tty
+  428  sudo raspi-config 
+  429  sudo shutdown -h now
+  430  cd olami/
+  431  sudo ./startup.sh 
+  432  sudo shutdown -h now
+  433  ls
+  434  cd proi
+  435  cd project/
+  436  ls
+  437  cd ..
+  438  ls
+  439  rm project/
+  440  cd Do
+  441  cd Downloads/
+  442  ls
+  443  cd ..
+  444  ls
+  445  cat rpi_samba_hdd.sh
+  446  ls
+  447  cd olami/
+  448  ls
+  449  cd libs/
+  450  l
+  451  ls
+  452  ls -al
+  453  cd ..
+  454  ls
+  455  cd ..
+  456  l
+  457  ls
+  458  mkdir git
+  459  cd git/
+  460  ls
+  461  git clone https://github.com/olami-developers/hackntu-2017-linux.git
+  462  l
+  463  ls
+  464  cd hackntu-2017-linux/
+  465  ls
+  466  cd olami/
+  467  ls
+  468  cd libs/
+  469  ls
+  470  ll
+  471  ls -al
+  472  cd ..
+  473  ls
+  474  cd ..
+  475  l
+  476  ls
+  477  cd ..
+  478  ls
+  479  cd ..
+  480  ls
+  481  cd olami/
+  482  ls
+  483  cd libs/
+  484  ls
+  485  ll
+  486  ls -al
+  487  cd ..
+  488  ls
+  489  cd ..
+  490  l
+  491  ls
+  492  cd git/
+  493  ls
+  494  rm hackntu-2017-linux/
+  495  rm hackntu-2017-linux/ -rf
+  496  git clone https://github.com/olami-developers/hackntu-2017-linux.git
+  497  ls
+  498  cd hackntu-2017-linux/
+  499  ls
+  500  cd olami/
+  501  ls
+  502  cd libs/
+  503  ls
+  504  ls 0-al
+  505  ls 0al
+  506  ls -al
+  507  cd ..
+  508  ls
+  509  sudo ./startup.sh 
+  510  cd ..
+  511  ls
+  512  rm git/ -rf
+  513  rm olami/ -rf
+  514  rm rpi_samba_hdd.sh
+  515  rm rpi_samba_hdd.sh.1 
+  516  ls
+  517  rm rpi_samba_hdd.sh.1 -rf
+  518  rm uart.py 
+  519  ls
+  520  sudo apt-get clean
+  521  sudo apt-get autoclean
+  522  sudo apt-get autoremove
+  523  sudo apt-get update
+  524  sudo apt-get upgrade
+  525  ls
+  526  cd .config/
+  527  ls
+  528  cd lxsession/
+  529  ls
+  530  cd LXDE-pi/
+  531  ls
+  532  vim autostart 
+  533  sync
+  534  cd
+  535  raspi-config 
+  536  sudo raspi-config 
+  537  ls
+  538  df -hj
+  539  df 
+  540  df -h
+  541  sudo apt-get clean
+  542  sudo apt-get autoclean
+  543  sudo apt-get autoremove
+  544  df -h
+  545  cd /
+  546  ls
+  547  cd boot/
+  548  ls
+  549  cd ..
+  550  l
+  551  ls
+  552  cd /home/
+  553  ls
+  554  du-sh pi/
+  555  du -hs pi/
+  556  cd
+  557  sudo shutdown -h now
+  558  ls
+  559  sudo apt-get update
+  560  sudo apt-get dist-update
+  561  sudo apt-get dist-upgrade
+  562  sudo apt-get install bluefish
+  563  RPi
+  564  history > log
